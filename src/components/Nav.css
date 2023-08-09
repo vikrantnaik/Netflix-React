@@ -23,20 +23,30 @@
 }
 
 #btn__signup {
-  padding: 0.25rem 0.5rem;
-  background-color: #e50914;
+  padding: 0.5rem 1rem;
+  background-color: #f77b81;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
+  outline: none;
+  border: none;
   margin-right: 20px;
 }
 
 #btn__login {
-  padding: 4px 18px;
+  padding: 0.5rem 1rem;
   background-color: #00000066;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border: 1px solid #ffffff;
   cursor: pointer;
+   outline: none;
+  border: none;
   margin-right: 20px;
+}
+
+#btn__signup:hover , #btn__login:hover {
+    color: black;
+  background-color: #ffffff;
+  transition: all 0.4s
 }
